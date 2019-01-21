@@ -1,7 +1,31 @@
 #searchBar {
     width:  520px;
     display:block;
-    margin:auto;
+    margin:auto; 
+}
+
+.submitButtons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display:inline;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    padding: 10px 16px;
+    margin-left: 10px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.button:hover {
+    border: 1px solid #757575;
+    color: black;
 }
 
 #googleLogo {
