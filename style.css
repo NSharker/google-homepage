@@ -32,3 +32,43 @@
     display:block;
     margin:auto;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navbar {
+    margin-bottom: 25px;
+}
+
+#signIn a {
+    color: white;
+    background-color: rgb(67, 135, 253);
+    padding: 5px 10px;
+}
+
+#signIn a:hover{
+    text-decoration: none;
+}
+
